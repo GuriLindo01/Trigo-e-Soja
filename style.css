@@ -43,3 +43,24 @@ body{
     line-height: 2em;
     margin-bottom: 1.5em;
 }
+
+.imagem{
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.imagem img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 800px){
+    .secao{
+        flex-direction: column;
+    }
+    .texto, .imagem{
+        padding: 10px;
+    }
+}
